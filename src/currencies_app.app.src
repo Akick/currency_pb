@@ -1,0 +1,21 @@
+{application, currencies_app,
+ [{description, "A get currencies test application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {currencies_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy,
+    cowlib,
+    jsx,
+    sync,
+    mimetypes,
+    ssl
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache-2.0"]},
+  {links, []}
+ ]}.
